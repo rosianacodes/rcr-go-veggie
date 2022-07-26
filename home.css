@@ -1,0 +1,268 @@
+/* search bar */
+.searchbar input[type=text] {
+    padding: 3px;
+    border: none;
+    margin-top: auto;
+    margin-right: 4px;
+    font-size: 8px;
+    font-family:'El Messiri';
+    /* background-color: #426236; */
+    text-decoration: none;
+    /* background-color:#426236; */
+    background-color: #d4efca;
+  }
+  .searchbar {
+    overflow:hidden;
+    /* background-color: #426236; */
+    background-color: #d4efca;
+  }
+  /* logo and tagline */
+  .header-row-1 {
+    display: block;
+  }
+  .logo {
+  display: flex;
+  margin-left: 45%;
+  margin-right: 50%;
+  width: 40%;
+  margin-bottom: 0%;
+  }
+  .logo img {
+    width: 30%;
+  }
+  .tagline {
+  display: flex;
+  justify-content: center;
+  margin-top: -1%;
+  margin-bottom: 3%;
+  }
+  h2 {
+  text-align: center;
+  padding: 14px,16px;
+  font-size: 16px;
+  color: #426236;
+  font-family: "Lucida Console", "papyrus";
+  }
+  h3 {
+    text-align: left;
+    /* padding: 14px,16px; */
+    font-size: 14px;
+    color: black;
+    font-family:'El Messiri';
+    font-style: italic;
+    }
+  /* Nav bar buttons  */
+    .topnav {
+      width: 100;
+      background-color: white;
+      overflow: auto;
+      text-align: center;
+      font-family:'El Messiri';
+      
+    }
+    .topnav a:hover {
+      background-color: #e9e9e9;
+      color:#426236;
+    }
+   
+  .topnav a{
+    float: left;
+    padding: 12px;
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    width:20%
+    
+  }
+  @media screen and (max-width: 500px) {
+    .topnav a {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+  }
+  /* latest post */
+  .latest {
+    margin-top: auto;
+    margin-left:auto;
+    font-size: 17px;
+    font-family:'El Messiri';
+    color: black;
+  }  
+  /* newsletter form orginal */
+  body, html {
+    height: 100%;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .bg-img {
+    /* The image used */
+    background-image: url("./papayasalad2.jpg");
+    min-height: 380px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 10%;
+  }
+  /* Add styles to the form container */
+  .form {
+    position: absolute;
+    right: 0;
+    margin: 30px;
+    max-width: 300px;
+    padding: 16px;
+    background-color: white;
+    font-family:'El Messiri';
+    text-align: center;
+  }
+  /* Set a style for the submit button */
+  .btn {
+    background-color: #d4efca;
+    color: black;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    font-size: 16px;
+    font-family:'El Messiri'
+    
+  }
+  h4{
+   color: #426236;
+  }
+  .btn:hover {
+    opacity: 1;
+    background-color:#426236;
+  }
+  /* footer  with social media */
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#426236;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-family:'El Messiri'
+  }
+  .icons
+    
+    .fa {
+      padding: 20px;
+      font-size: 30px;
+      width: 50px;
+      text-align: center;
+      text-decoration: none;
+    }
+    
+    .fa:hover {
+      opacity: 0.7;
+    }
+    
+    .fa-facebook {
+      background: #426236;
+      color: white;
+    }
+    
+    .fa-instagram {
+      background: #426236;
+      color: white;
+    }
+    
+    .fa-pinterest {
+      background: #426236;
+      color: white;
+    }
+    .slideshow-container {
+      width: 80vw;
+      height: 60vh;
+      display: block;
+      position: relative;
+      margin: auto;
+      margin-top: 60px;
+    }
+    
+    /* Hide the images by default */
+    .mySlides {
+      height: 100%;
+      display: none;
+    }
+    .mySlides img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      overflow: hidden;
+    }
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      margin-top: -22px;
+      padding: 16px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+    
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+      background-color: rgba(0,0,0,0.8);
+    }
+    
+    /* Caption text */
+    .text {
+      display: block;
+      color:#426236;
+      font-size: 17px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+      background-color: #d4efca;
+      font-family:'El Messiri';
+      /* text-shadow: 3px 3px #426236; */
+    }
+    
+    
+    /* The dots/bullets/indicators */
+    .dot {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+    
+    .active, .dot:hover {
+      background-color: #426236;
+    }
+    
+  /* Fading animation */
+  .fade {
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+    
+    @keyframes fade {
+      from {opacity: .4}
+      to {opacity: 1}
+    }
+  

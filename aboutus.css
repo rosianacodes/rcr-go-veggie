@@ -1,0 +1,273 @@
+.searchbar input[type=text] {
+  padding: 3px;
+  border: none;
+  margin-top: auto;
+  margin-right: 4px;
+  font-size: 8px;
+  font-family:'El Messiri';
+  /* background-color: #426236; */
+  text-decoration: none;
+  /* background-color:#426236; */
+  background-color: #D4EFCA;
+}
+.searchbar {
+  overflow:hidden;
+  /* background-color: #426236; */
+  background-color: #D4EFCA;
+}
+/* logo and tagline */
+.header-row-1 {
+  display: block;
+}
+.logo {
+display: flex;
+margin-left: 45%;
+margin-right: 50%;
+width: 40%;
+margin-bottom: 0%;
+}
+.logo img {
+  width: 30%;
+}
+.tagline {
+display: flex;
+justify-content: center;
+margin-top: -1%;
+margin-bottom: 3%;
+}
+h2 {
+text-align: center;
+padding: 14px,16px;
+font-size: 16px;
+color: #426236;
+font-family: "Lucida Console", "papyrus";
+}
+h3 {
+  text-align: left;
+  /* padding: 14px,16px; */
+  font-size: 16px;
+  color: black;
+  font-family:'El Messiri';
+  }
+/* Nav bar buttons  */
+  .topnav {
+    width: 100;
+    /* background-color: #bbb; */
+    background-color: white;
+    overflow: auto;
+    text-align: center;
+    font-family:'El Messiri';
+  }
+  .topnav a:hover {
+    background-color: #E9E9E9;
+    color:#426236;
+  }
+.topnav a{
+  float: left;
+  padding: 12px;
+  color: black;
+  text-decoration: none;
+  font-size: 17px;
+  width: 17%
+}
+@media screen and (max-width: 500px) {
+  .topnav a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#426236;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-family: "el messiri";
+  }
+  .icons
+    .fa {
+      padding: 20px;
+      font-size: 30px;
+      width: 50px;
+      text-align: center;
+      text-decoration: none;
+    }
+    .fa:hover {
+      opacity: 0.7;
+    }
+    .fa-facebook {
+      background: #426236;
+      color: white;
+    }
+    .fa-instagram {
+      background: #426236;
+      color: white;
+    }
+    .fa-pinterest {
+      background: #426236;
+      color: white;
+    }
+
+.hello {
+    font-size: 20px;
+    font-weight: 900;
+    font-style: italic;
+    color:#426236;
+    margin-top: 50px;
+}
+
+.whoarewe {
+    font-family: 'el messiri';
+    font-size: 30px;
+    color:#426236; 
+    font-weight: bold;
+    text-align: center;
+}
+
+.introduction {
+    font-family: 'el messiri';
+    text-align: center;
+}
+
+.gettoknowus {
+    font-family: 'el messiri';
+    text-align: center;
+    font-size: 10px;
+    color:#426236;
+    margin-top: 100px;
+}
+
+
+.rosep {
+    font-family: 'el messiri'; 
+    background-color:#d4efca;
+    font-size: 16px;
+    margin-top: 50px;
+
+}
+
+.imgrose {
+    float: right;
+
+}
+
+.rosefood {
+    font-style: italic;
+}
+
+.rosedrink {
+    font-style: italic;
+}
+
+
+.chloep {
+    font-family: 'el messiri';
+    text-align: left;
+    margin-top: 150px;
+    background-color: #d4efca;;
+    font-size: 16px;
+
+  
+}
+
+.imgchloe {
+    float: left;
+    padding: 20px;
+}
+
+.chloefood {
+    font-style: italic;
+}
+
+.chloedrink {
+    font-style: italic;
+}
+
+
+.rosettep {
+    font-family: 'el messiri';
+    text-align: left;
+    margin-top: 150px;
+    padding-right: 300px;
+    background-color:#d4efca;
+    font-size: 16px;
+    
+}
+
+.imgrosette {
+    float: right;
+}
+
+.rosettefood {
+    font-style: italic;
+}
+
+.rosettedrink {
+    font-style: italic
+}
+
+
+Form {
+    font-family: 'el messiri';
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    padding-top:50px;
+    padding-bottom: 60px;
+    margin-bottom: 300px;
+    font-size: 16px;
+    border-radius: 15px;
+    border-color:#426236;
+    
+
+}
+
+Form:hover {
+    background-color:#426236;
+    }
+
+.email {
+    font-family: 'el messiri';
+    text-align: center;
+
+}
+
+h4 {
+    padding-top: 100px;
+    padding-bottom: 25px;
+    font-size: 50px;
+    font-family: 'el messiri';
+    text-align: center;
+
+}
+
+input {
+    font-family: 'El Messiri';
+    width: 300px;
+}
+
+.name {
+  padding-bottom: 20px;
+}
+
+.email {
+  padding-bottom:20px;
+}
+
+.message {
+  padding-bottom: 20px;
+}
+
+.submit {
+  padding-top: 20px;
+}
+
+
+

@@ -1,0 +1,203 @@
+.searchbar input[type=text] {
+  padding: 3px;
+  border: none;
+  margin-top: auto;
+  margin-right: 4px;
+  font-size: 8px;
+  font-family:'El Messiri';
+  /* background-color: #426236; */
+  text-decoration: none;
+  /* background-color:#426236; */
+  background-color: #D4EFCA;
+}
+.searchbar {
+  overflow:hidden;
+  /* background-color: #426236; */
+  background-color: #D4EFCA;
+}
+/* logo and tagline */
+.header-row-1 {
+  display: block;
+}
+.logo {
+display: flex;
+margin-left: 45%;
+margin-right: 50%;
+width: 40%;
+margin-bottom: 0%;
+}
+.logo img {
+  width: 30%;
+}
+.tagline {
+display: flex;
+justify-content: center;
+margin-top: -1%;
+margin-bottom: 3%;
+}
+h2 {
+text-align: center;
+padding: 14px,16px;
+font-size: 16px;
+color: #426236;
+font-family: "Lucida Console", "papyrus";
+}
+h3 {
+  text-align: left;
+  /* padding: 14px,16px; */
+  font-size: 16px;
+  color: black;
+  font-family:'El Messiri';
+  }
+/* Nav bar buttons  */
+  .topnav {
+    width: 100;
+    /* background-color: #bbb; */
+    background-color: white;
+    overflow: auto;
+    text-align: center;
+    font-family:'El Messiri';
+  }
+  .topnav a:hover {
+    background-color: #E9E9E9;
+    color:#426236;
+  }
+.topnav a{
+  float: left;
+  padding: 12px;
+  color: black;
+  text-decoration: none;
+  font-size: 17px;
+  width: 17%
+}
+@media screen and (max-width: 500px) {
+  .topnav a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#426236;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  font-family: "el messiri";
+}
+.icons
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #426236;
+    color: white;
+  }
+  .fa-instagram {
+    background: #426236;
+    color: white;
+  }
+  .fa-pinterest {
+    background: #426236;
+    color: white;
+  }
+
+  .recipes {
+    font-family: 'el messiri';
+    text-align: center;
+    font-weight: 900;
+    color:#426236;
+    font-size: 20px;
+    margin-top: 50px;
+   
+}
+.recipesintro {
+  font-family: 'el messiri';
+}
+.intro {
+  font-family: 'el messiri';
+}
+.breakfast {
+  font-family: 'el messiri';
+}
+.breakfastmenu {
+  font-family: 'el messiri';
+}
+.lunch {
+  font-family: 'el messiri';
+}
+.lunchmenu {
+  font-family: 'el messiri';
+}
+.dinner {
+  font-family: 'el messiri';
+}
+.dinnermenu {
+  font-family: 'el messiri';
+  padding-bottom: 200px;
+  
+}
+.footer {
+  font-family: 'el messiri'; 
+}
+.ingredients {
+  font-family: 'el messiri';
+}
+
+.baliblisspapayasalad {
+  font-family: 'el messiri';
+  text-align: center;
+  font-weight: 900;
+  color:#426236;
+  font-size: 20px;
+  margin-top: 50px; 
+}
+
+.delicious {
+    font-family: 'el messiri';
+    text-align: center;
+    font-weight: 900;
+    font-size: 20px;
+   
+  }
+
+.header2 {
+  text-align:left;
+  font-family: 'el messiri';
+    font-size:20px;
+    color:#426236;
+}
+
+h3 {
+    text-align:left;
+    font-family: 'el messiri';
+    font-size:20px;
+    color:#426236
+  }
+
+.salad {
+  padding-left: 300px;
+}
+
+.serves {
+  text-align:center;
+  font-family: 'el messiri'
+}
+
+.alternatives {
+  font-family: 'el messiri';
+  padding-bottom: 200px;
+  padding-left: 350px;
+}

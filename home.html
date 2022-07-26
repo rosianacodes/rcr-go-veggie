@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page </title>
+    <link rel="stylesheet" href="./home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri&family=Fascinate&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+  <!-- search bar -->
+  <div class="searchbar">
+    <input type="text" placeholder="SEARCH FOR RECIPES ">
+  </div>
+​
+  <Div class="header-row-1">
+     <div class="logo"> 
+         <img 
+           src="./Screenshot 2022-07-17 at 16.41.12.png" 
+           width= 150 
+           alt="logo">
+      </div>
+      <div class="tagline">
+        <h2>Your journey to becoming a vegeterian</h2>
+       </div>    
+  </Div>
+<!-- tab -->
+  <div class="topnav">
+      <a class="active" href="#home">Home</a>
+      <a href="./aboutus.html">About</a>
+      <a href="./recipes.html">Recipes</a>
+      <a href="#becoming"> Transitioning</a>
+      <a href="contact"> Contact</a>
+   </div>   
+​
+    <!-- Slideshow container -->
+  <div class="slideshow-container">
+      <div class="mySlides fade">
+         <img src="./footeer.png" style="width:100%">
+         <div class="text">Fantastic drinks</div>
+      </div>
+​
+      <div class="mySlides fade">
+          <img src="./footer 2.jpeg" style="width:100%">
+          <div class="text">Incredible spreads</div>
+      </div>
+​
+      <div class="mySlides fade">
+           <img src="./Vegan-Caribbean-Feast.jpeg" style="width:100%">
+           <div class="text">Mouth watering dinners</div>
+      </div>
+      
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+<br>
+​
+<!-- The dots/circles -->
+   <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+   </div>
+​
+ <h3>latest recipe: Bali Bliss Papaya Salad ⌄</h3>
+  
+  <!-- </form> --> 
+  <div class="bg-img">
+    <form action="/action_page.php" class="form">
+      <h4>Get RCR Go Veggie recipes straight to your inbox!</h4>
+      <label for="name"><b>Name</b></label> <br>
+      <input type="text" placeholder="Enter name" name="name" required> <br>
+      <label for="email"><b>Email</b></label> <br>
+      <input type="text" placeholder="Enter Email" name="email" required>
+      <button type="submit" class="btn">subscribe</button>
+    </form>
+  </div>
+  <br>
+​
+  
+  
+<!-- footer with social media  icons -->
+<div class="footer">
+  <p2>Follow us</p2>
+  <div class="icons">
+     <a href="#" class="fa fa-facebook"></a>
+     <a href="#" class="fa fa-instagram"></a>
+     <a href="#" class="fa fa-pinterest"></a>
+  </div>
+</div>
+<script src="./javascript"> </script>
+</body>
+</html>
